@@ -31,7 +31,7 @@ from scapy.all import Raw, Ether, sendp, IP, TCP
 
 import time
 
-#*** Must have 10 parameters passed to it (first parameter is script)
+#*** Must have 7 parameters passed to it (first parameter is script)
 assert len(sys.argv) == 8
 
 #*** Get parameters from command line

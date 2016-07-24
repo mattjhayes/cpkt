@@ -27,7 +27,7 @@ This could be a lot more extensible if had time, just built for a single use cas
 
 import sys
 #*** Scapy for sending/receiving packets:
-from scapy.all import Raw, Ether, sendp, IP, TCP
+from scapy.all import Raw, Ether, sendp, IP, TCP, ICMP
 
 import time
 
